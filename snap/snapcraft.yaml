@@ -1,4 +1,4 @@
-name: mcs-snap
+name: maven-central-search
 version: 0.1.10
 summary: Maven Central Search
 description: |
