@@ -1,0 +1,24 @@
+name: mcs
+version: 0.1.10
+summary: Maven Central Search
+description: |
+  Use Maven Central Repository Search from your command line!
+
+grade: stable
+confinement: strict
+base: core
+type: app
+
+apps:
+  mcs:
+    command: $SNAP/bin/mcs
+    plugs:
+      - network
+
+parts:
+  mcs:
+    plugin: dump
+    source: https://github.com/mthmulders/mcs/releases/download/v0.1.10/mcs-0.1.10-linux-x86_64.tar.gz
+    source-checksum: sha256/b524d46ae6bbadd1741c83a8ec8cf2205deebe9201ad6dbe417ef3c320ab2c03
+    stage-packages:
+      - curl
