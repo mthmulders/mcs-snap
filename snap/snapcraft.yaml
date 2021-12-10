@@ -1,5 +1,5 @@
 name: maven-central-search
-version: 0.1.10
+version: 0.1.11
 summary: Maven Central Search
 description: |
   Use Maven Central Repository Search from your command line!
@@ -18,7 +18,11 @@ apps:
 parts:
   mcs:
     plugin: dump
-    source: https://github.com/mthmulders/mcs/releases/download/v0.1.10/mcs-0.1.10-linux-x86_64.tar.gz
-    source-checksum: sha256/b524d46ae6bbadd1741c83a8ec8cf2205deebe9201ad6dbe417ef3c320ab2c03
+    source: https://github.com/mthmulders/mcs/releases/download/v0.1.11/mcs-0.1.11-linux-x86_64.tar.gz
+    source-checksum: sha256/a006147115a5051db3c57f0af510a0cc2a2c033f4e254b0bb839cd2c89d950ca
     stage-packages:
       - curl
+
+architectures:
+  - build-on: amd64
+    run-on: amd64
