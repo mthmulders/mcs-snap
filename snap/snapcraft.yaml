@@ -19,7 +19,7 @@ parts:
   mcs:
     plugin: dump
     source: https://github.com/mthmulders/mcs/releases/download/v0.1.14/mcs-0.1.14-linux-x86_64.tar.gz
-    source-checksum: sha256/5e465817f26618300aec1c728c264ee73080423a329b2b443df4c2aac01ecd89
+    source-checksum: sha256/ee7d3abf4d8b56a8c1b6848cc212fbd8469b21dbf700e2846f60096f49fd69b6
     stage-packages:
       - curl
 
