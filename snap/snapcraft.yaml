@@ -1,5 +1,6 @@
+# Generated with JReleaser 0.10.0 at 2021-12-29T13:16:17.546218209Z
 name: maven-central-search
-version: 0.1.15
+version: 0.1.17
 summary: Maven Central Search
 description: |
   Use Maven Central Repository Search from your command line!
@@ -9,6 +10,10 @@ confinement: strict
 base: core
 type: app
 
+architectures:
+  - build-on: [amd64]
+    run-on: [am64]
+    
 apps:
   mcs:
     command: $SNAP/bin/mcs
@@ -18,11 +23,7 @@ apps:
 parts:
   mcs:
     plugin: dump
-    source: https://github.com/mthmulders/mcs/releases/download/v0.1.15/mcs-0.1.15-linux-x86_64.tar.gz
-    source-checksum: sha256/fd4b3070326840e4bd8c4bda05e3fc1273f248d2fef58d934b43bcb9db4e4909
+    source: https://github.com/mthmulders/mcs/releases/download/v0.1.17/mcs-0.1.17-linux-x86_64.tar.gz
+    source-checksum: sha256/5c2d1c13018968ed4aea124030a84efd27210c9e0fb4fb2f40c48b36b32b2b2a
     stage-packages:
       - curl
-
-architectures:
-  - build-on: amd64
-    run-on: amd64
