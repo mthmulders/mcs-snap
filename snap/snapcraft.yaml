@@ -12,7 +12,7 @@ type: app
 
 architectures:
   - build-on: [amd64]
-    run-on: [am64]
+    run-on: [amd64]
     
 apps:
   mcs:
