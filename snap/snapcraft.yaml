@@ -11,8 +11,8 @@ base: core
 type: app
 
 architectures:
-  - build-on: amd64
-    run-on: am64
+  - build-on: [amd64]
+    run-on: [am64]
     
 apps:
   mcs:
