@@ -1,6 +1,6 @@
 # Generated with JReleaser 0.10.0 at 2022-02-20T12:19:48.835094445Z
 name: maven-central-search
-version: 0.2
+version: "0.2"
 summary: Maven Central Search
 description: |
   Use Maven Central Repository Search from your command line!
