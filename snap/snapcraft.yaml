@@ -1,6 +1,6 @@
-# Generated with JReleaser 1.9.0 at 2023-11-24T09:16:30.691142715Z
+# Generated with JReleaser 1.9.0 at 2023-12-28T14:51:54.052680813Z
 name: maven-central-search
-version: "0.5.3"
+version: "0.6.0"
 summary: Maven Central Search
 description: |
   Use Maven Central Repository Search from your command line!
@@ -23,7 +23,7 @@ apps:
 parts:
   mcs:
     plugin: dump
-    source: https://github.com/mthmulders/mcs/releases/download/v0.5.3/mcs-0.5.3-linux-x86_64.tar.gz
-    source-checksum: sha256/aa6ba692ce3e3d174b072c2f1ebf08a11d8c2295ad603abdb3e617d8f2101dae
+    source: https://github.com/mthmulders/mcs/releases/download/v0.6.0/mcs-0.6.0-linux-x86_64.tar.gz
+    source-checksum: sha256/84f2dc4d0501b3feecde83e08d040b8174607f32abb24a1c13c96661c3ccbea9
     stage-packages:
       - curl
