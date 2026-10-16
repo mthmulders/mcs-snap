@@ -1,9 +1,15 @@
-# Generated with JReleaser 1.25.0
+# Generated with JReleaser 1.26.0
 name: maven-central-search
-version: "0.11.1"
+version: "0.11.2"
 summary: Maven Central Search
 description: |
   Search Maven Central from your command line!
+
+title: Mcs
+license: MIT
+issues: https://github.com/mthmulders/mcs/issues
+source-code: https://github.com/mthmulders/mcs
+website: https://maarten.mulders.it/projects/mcs/
 
 grade: stable
 confinement: strict
@@ -12,9 +18,8 @@ type: app
 
 platforms:
   amd64:
-    build-on: amd64
-    build-for: amd64
-    
+    build-on: [amd64]
+    build-for: [amd64]
 apps:
   mcs:
     command: bin/mcs
@@ -24,7 +29,7 @@ apps:
 parts:
   mcs:
     plugin: dump
-    source: https://github.com/mthmulders/mcs/releases/download/v0.11.1/mcs-0.11.1-linux-x86_64.tar.gz
-    source-checksum: sha256/ccf680f4a2556201202107a98c62948985b4437b97d5b3f9da859ee2d6ca108d
+    source: https://github.com/mthmulders/mcs/releases/download/v0.11.2/mcs-0.11.2-linux-x86_64.tar.gz
+    source-checksum: sha256/81bed11b1e5248c595f45a59e6b30f30a1c602e60800b2662cc668ca19d7096a
     stage-packages:
       - curl
